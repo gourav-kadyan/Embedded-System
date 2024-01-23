@@ -26,3 +26,13 @@
     7 - Hardware --> for perfomance and security
 
 
+
+#Embedded System Processors
+
+##Processors 
+    Mainly used for processing like any input to give some specific output
+
+##Processors inside a system
+    
+
+
