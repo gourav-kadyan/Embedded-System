@@ -18,7 +18,7 @@
 ##Characteristic of Embedded System
 
     1 - Must pe Dependable
-    ![Alt text](characteristic.png)
+    ![Alt text](image.png)
     2 - Single Functioned --> Need for specific function or work to do 
     3 - Tightly Constrained --> as per cost , size , perfomance , power etc 
     4 - Realtime Operation --> Continuosly sensed enviroment(sensors used) and do tasks on realime (no delay should be there)
