@@ -17,13 +17,17 @@
 
 ##Characteristic of Embedded System
 
-    1 - Single Functioned --> Need for specific function or work to do 
-    2 - Tightly Constrained --> as per cost , size , perfomance , power etc 
-    3 - Realtime Operation --> Continuosly sensed enviroment(sensors used) and do tasks on realime (no delay should be there)
-    4 - Microprocessors / Microcontroller based --> It should be application specific processor/controller not the general purpose
-    5 - Connected(Peripherals) --> like input and output to connect 
-    6 - Software --> for more features and flexibility
-    7 - Hardware --> for perfomance and security
+    1 - Must pe Dependable
+    ![Alt text](<Screenshot from 2024-01-23 15-18-42-1.png>)
+
+    2 - Single Functioned --> Need for specific function or work to do 
+    3 - Tightly Constrained --> as per cost , size , perfomance , power etc 
+    4 - Realtime Operation --> Continuosly sensed enviroment(sensors used) and do tasks on realime (no delay should be there)
+    5 - Microprocessors / Microcontroller based --> It should be application specific processor/controller not the general purpose
+    6 - Connected(Peripherals) --> like input and output to connect 
+    7 - Software --> for more features and flexibility
+    8 - Hardware --> for perfomance and security
+
 
 
 
@@ -33,6 +37,6 @@
     Mainly used for processing like any input to give some specific output
 
 ##Processors inside a system
-    
+
 
 
