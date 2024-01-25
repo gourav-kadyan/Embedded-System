@@ -17,8 +17,7 @@
 
 ##Characteristic of Embedded System
 
-    1 - Must pe Dependable
-        refer to image.png
+    1 - Must pe Dependable --> means all security and functional measure have already which needed like fault prevent, fault tolerance , fault removal etc
     2 - Single Functioned --> Need for specific function or work to do 
     3 - Tightly Constrained --> as per cost , size , perfomance , power etc 
     4 - Realtime Operation --> Continuosly sensed enviroment(sensors used) and do tasks on realime (no delay should be there)
@@ -87,7 +86,7 @@
 
 ##Why we need multicore
 
-    --> if we increase the performance in cput (increase the frequency of clock --> overclock) the power dissipation will increase
+    --> if we increase the performance in cpu (increase the frequency of clock --> overclock) the power dissipation will increase
 
     --> thats why we prefer two core instead of overclocked single core
 
@@ -158,5 +157,41 @@
     --> generally more complex with a broader range of capabilities 
     --> use case - desktop computer, laptops servers, high-performance computing
     --> example -- intel core series, amd ryzen
+
+
+
+#Memory
+
+##EEPROM
+
+    --> non - volatile memory
+    --> byte level 
+    --> slower compared to sram and flash
+    --> limited write endurance, typically in thousands of cycle
+    --> can retain data without power
+    --> electrically erasable
+    --> configuration data, parameter storage
+    --> uses floating gate transistor
+    --> use case - firmware 
+
+##SRAM
+
+    --> volatile memory 
+    --> bits level 
+    --> fastest in compare to both 
+    --> cannot retain data without power
+    --> electrically erasable
+    --> use case - register for cache memory
+
+
+##FLASH
+
+    --> non - volatile memory
+    --> block level 
+    --> slower compared to sram and flash
+    --> limited write endurance, typically in thousands of cycle
+    --> can retain data without power
+    --> electrically erasable - faster than EEPROM
+    --> use case - for storage like ssd 
 
 
