@@ -238,6 +238,33 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 **Real-life Example:**
 - Modern automotive ECUs use VLIV architecture to process multiple tasks simultaneously, improving overall system efficiency.
 
+2. **Super Scalar**
+
+   - Emphasis on hardware.
+   - Executes multiple instructions in parallel.
+   - Optimizes performance through parallelism.
+
+**Real-life Example:**
+- High-performance computing in vehicles, such as autonomous driving systems, uses Super Scalar architecture for parallel execution of complex algorithms.
+
+3. **Vector**
+
+   - Used in GPUs.
+   - Processes multiple data elements simultaneously.
+   - Optimized for parallel mathematical operations.
+
+**Real-life Example:**
+- Graphics processing units (GPUs) in automotive applications use Vector architecture for parallel processing of graphical data, enhancing visual displays.
+
+4. **Multi-Threading**
+
+   - Allows multiple threads to run concurrently.
+   - Improves overall system throughput.
+   - Efficiently utilizes CPU resources.
+
+**Real-life Example:**
+- Infotainment systems in modern cars use multi-threading to run concurrent processes, ensuring smooth user experiences while simultaneously handling multiple tasks.
+
 # Relevance of Using Multicore
 
 - Critical and non-critical tasks must run parallel without affecting each other.
