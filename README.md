@@ -331,8 +331,8 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
             Real Prototype : Validation / Qualification                       |
                                                             ------------------
 
-# Typical Microcontroller Development Cycle 
-
+#* Typical Microcontroller Development Cycle 
+/*
 
 +----------------------+
 |      Coders Code     |
@@ -395,3 +395,4 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 |   Production         |
 +----------------------+
          
+         */
