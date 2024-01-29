@@ -69,6 +69,10 @@ AUTOSAR (Automotive Open System Architecture) is a standardized software archite
 
 RISC architecture in automotive CPUs focuses on simplicity and efficiency.
 
+- Reduced Instruction Set Computer
+- Single clock cycle, low cycle per second
+- Large code size, less complex hardware
+- Emphasis on software
 - Examples:
   - **Engine Management Systems:** Use RISC processors for quick and efficient control.
   - **In-Vehicle Infotainment:** RISC processors handle multimedia tasks effectively.
@@ -77,6 +81,10 @@ RISC architecture in automotive CPUs focuses on simplicity and efficiency.
 
 CISC architecture in automotive CPUs emphasizes versatility and complexity.
 
+- Complex Instruction Set Computer
+- Multi-clock cycle, high cycle per second
+- Small code size, high complex hardware
+- Emphasis on hardware
 - Examples:
   - **Autonomous Driving Systems:** Use CISC processors for handling complex algorithms.
   - **In-Car Networking:** CISC processors manage communication protocols efficiently.
@@ -274,7 +282,7 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 **Real-life Example:**
 - In an advanced driver-assistance system (ADAS), a multicore processor handles critical tasks like collision detection concurrently with non-critical tasks like infotainment.
 
-# Design Process
+# Embedded System Design Process
 
 ## 1. Product Specification
 
@@ -300,3 +308,26 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 
 **Real-life Example:**
 - During the development of an advanced braking system, HIL testing is crucial to validate the integration of control algorithms in the ECU with the physical braking components.
+
+
+                        System Specification          ------------------------
+                                 |                                           |
+                                 |                                           |
+                                 v                                     System Design
+                           Functional Design                                  |
+                                 |                                            |
+                                 V                                            |
+                           Architectural Design                               |
+                           /                    \        ----------------------
+                          /                      \                            |
+                         V                        V                           |
+               SW generation- co simulation --  Platform Simulation           |
+               /                                      \                       |
+              /                                        \                Hardware Dev.
+             V                                          V                     |
+      SW Integration  -- Detailed Co-simulation --  Real HW                   |
+                                 |                                            |
+                                 V                                            |
+            Real Prototype : Validation / Qualification                       |
+                                                            ------------------
+
