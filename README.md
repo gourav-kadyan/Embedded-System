@@ -210,7 +210,7 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 
 - Non-volatile memory.
 - Block-level storage.
-- Slower compared to SRAM and EEPROM.
+- Slower compared to SRAM and faster than EEPROM.
 - Limited write endurance (typically in thousands of cycles).
 - Can retain data without power.
 - Block erasable (faster than EEPROM).
