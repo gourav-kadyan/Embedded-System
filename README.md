@@ -331,3 +331,67 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
             Real Prototype : Validation / Qualification                       |
                                                             ------------------
 
+# Typical Microcontroller Development Cycle 
+
+
++----------------------+
+|      Coders Code     |
+|                      |
+|                      |<----------------+
+|                      |                 ^
++----------------------+                 |
+          |                              |
+          v                              |
++----------------------+                 |
+|      Compilation     |                 |
+|                      |                 |
+|                      |                 |
+|                      |                 |
++----------------------+                 |
+          |                              |
+          v                              |
++----------------------+                 |
+|      Debugger        |                 |
+|                      |                 |
+|                      |                 |
+|                      |                 |
++----------------------+                 |
+          |                              |
+          v                              |
++----------------------+                 |
+|   Bug-Free?          |  No             |
+|        |-------------|---------------->+
+|        v             |                 ^
+|      YES             |                 |
++----------------------+                 |
+          |                              |
+          v                              |
++----------------------+                 |
+|  Next Development    |                 |
+|  Phase (Testing,     |                 |
+|  Deployment, etc.)   |                 |
++----------------------+                 |
+          |                              |
+          v                              |
++----------------------+                 |
+|   Testing on Real    |                 |
+|   Hardware/ECU       |                 |
+|                      |                 |
+|                      |                 |
++----------------------+                 |
+          |                              |
+          v                              |
++----------------------+                 |
+|      Bug-Free?       |    No           |
+|        |-------------|---------------->+
+|        v             |
+|      YES             |
++----------------------+
+          |
+          v
++----------------------+
+|   Production         |
+|   Deployment to      |
+|   Production         |
++----------------------+
+         
