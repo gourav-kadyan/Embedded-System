@@ -333,6 +333,7 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 
 # Typical Microcontroller Development Cycle 
 
+
 +----------------------+
 |   Software           |
 |   Development Cycle  |
