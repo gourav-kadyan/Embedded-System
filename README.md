@@ -232,7 +232,7 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 
 ## Four Main Types
 
-1. **VLIV (Very-Long Instruction Word)**
+1. **VLIW (Very-Long Instruction Word)**
 
    - Multicore processor.
    - Parallel processing of tasks.
@@ -244,7 +244,7 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
    - Power consumption reduction.
 
 **Real-life Example:**
-- Modern automotive ECUs use VLIV architecture to process multiple tasks simultaneously, improving overall system efficiency.
+- Modern automotive ECUs use VLIW architecture to process multiple tasks simultaneously, improving overall system efficiency.
 
 2. **Super Scalar**
 
@@ -400,4 +400,77 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
       |   Deployment to      |
       |   Production         |
       +----------------------+
-               
+
+
+## Cross-Compiler
+
+   - Create  a Hex. file for the other system 
+   - example --> Kiel uVision
+
+   - Kiel uVision --> Hex code --> Target Development board(8051/ARM)
+
+# Built Tools
+
+## Tools to Create Hex File
+
+- A Hex file is generated using a tool chain, which consists of a cross compiler, cross linker, and cross assembler.
+
+## Responsibilities of Build Tools
+
+Build tools are responsible for:
+
+1. Running the program for the target.
+2. Replacing the code image on the target.
+3. Real-time monitoring of the program execution on the target, including the capability to observe processor registers and status.
+
+## Various Debugger Tools
+
+1. **Instruction Set Simulator (ISS)**
+2. **In-Circuit Simulator (ICS)**
+3. **In-Circuit Emulator (ICE)**
+4. **In-Circuit Debugger (ICD)**
+
+## Definition and Real-Life Automotive Examples
+
+### Instruction Set Simulator (ISS)
+
+- **Definition:** An ISS simulates the execution of instructions without running the actual hardware.
+- **Real-Life Automotive Example:** Simulating the control algorithm of an Electronic Control Unit (ECU) without the physical ECU hardware.
+- **Additional Points:**
+  - ISS is suitable for early software development and algorithm testing.
+  - It provides a fast and flexible environment for iterative software development.
+
+### In-Circuit Simulator (ICS)
+
+- **Definition:** ICS simulates the behavior of electronic circuits within a larger system.
+- **Real-Life Automotive Example:** Simulating the behavior of a car's electronic control system, including sensors and actuators.
+- **Additional Points:**
+  - ICS is used for system-level testing and verification.
+  - It allows testing complex systems before the availability of physical hardware.
+
+### In-Circuit Emulator (ICE)
+
+- **Definition:** An ICE emulates the entire microcontroller or processor, allowing software development and testing on actual hardware.
+- **Real-Life Automotive Example:** Emulating an ABS module to test braking algorithms without the actual ABS unit.
+- **Additional Points:**
+  - ICE provides a more accurate representation of the target system.
+  - It is useful for software development and testing in a real hardware environment.
+
+### In-Circuit Debugger (ICD)
+
+- **Definition:** ICD allows developers to observe and control the execution of code in real hardware.
+- **Real-Life Automotive Example:** Debugging the firmware of an Engine Control Unit (ECU) in a running vehicle.
+- **Additional Points:**
+  - ICD provides real-time insight into code execution on the physical device.
+  - It is crucial for identifying and fixing issues during software development.
+
+## Usage in Automotive Development
+
+In the automotive development process, these tools are vital for:
+
+- Developing and testing control algorithms for various vehicle functions.
+- Verifying the behavior of embedded systems in a simulated or emulated environment.
+- Debugging and optimizing the software running on Electronic Control Units (ECUs).
+- Ensuring the reliability and safety of automotive software through thorough testing and debugging processes.
+
+
