@@ -409,11 +409,11 @@ CISC architecture in automotive CPUs emphasizes versatility and complexity.
 
    - Kiel uVision --> Hex code --> Target Development board(8051/ARM)
 
-# Built Tools
+# Build Tools
 
 ## Tools to Create Hex File
 
-- A Hex file is generated using a tool chain, which consists of a cross compiler, cross linker, and cross assembler.
+- A Hex file is generated using a build tool chain, which consists of a cross compiler, cross linker, and cross assembler.
 
 ## Responsibilities of Build Tools
 
